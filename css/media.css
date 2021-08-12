@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1120px){
+    .woman img{
+        position: relative;
+        left: 26px;
+        top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1056px){
+    .woman img{
+        position: relative;
+        left: 26px;
+        top: 92px;
+    }
+    .screen_one .flex_container p {
+        font-size: 18px;
+        max-width: 290px;
+    }
+
+}
+
+@media only screen and (max-width: 914px){
+    .woman{
+        display: none;
+    }
+
+    header .flex_container{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header h2{
+        font-size: 43px;
+    }
+
+    .screen_one .flex_container p {
+        font-size: 14px;
+        max-width: 210px;
+    }
+}
+
+
+@media only screen and (max-width: 744px){
+    .screen_one .flex_container{
+        display: block;
+        margin-bottom: 50px;
+    }
+    .adaptive{
+        margin-bottom: 40px;
+    }
+    .adaptive_two{
+        margin-bottom: 80px;
+    }
+    .screen_one .flex_container p {
+        font-size: 24px;
+        max-width: 400px;
+    }
+    .screen_one .flex_container img{
+        width: 100px;
+    }
+    .screen_two .flex_container_one h3{
+        width: 90px;
+        height: 90px;
+        font-size: 64px;
+        line-height: 90px;
+    }
+    .screen_two .flex_container_two h3{
+        width: 90px;
+        height: 90px;
+        font-size: 64px;
+        line-height: 90px;
+    }
+    .screen_two .flex_container_one p{
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .screen_two .flex_container_two p{
+        font-size: 14px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 534px){
+    .text p{
+        font-size: 32px;
+        font-weight: 600;
+        color: #0b0078;
+        font-family: Roboto;
+        line-height: 42px;
+    }
+    .screen_one .flex_container p {
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .screen_one .flex_container img{
+        width: 70px;
+    }
+    .screen_two .flex_container_one p{
+        max-width: 200px;
+    }
+    .screen_two .flex_container_two p{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 403px){
+    .screen_one .flex_container p {
+        font-size: 14px;
+        max-width: 230px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+}

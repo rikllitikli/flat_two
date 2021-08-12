@@ -64,6 +64,14 @@ header .flex_container{
     font-family: Roboto;
 }
 
+.text a:hover{
+    background-color: #f4f003;
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+
 
 header h2{
     font-size: 72px;
@@ -110,6 +118,14 @@ header h2{
     text-decoration: none;
     font-size: 18px;
     font-family: Roboto;
+}
+
+.screen_one .flex_container a:hover{
+    background-color: #f4f003;
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 14px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
 }
 
 
