@@ -1,8 +1,8 @@
-@media only screen and (max-width: 1120px){
+@media only screen and (max-width: 1139px){
     .woman img{
         position: relative;
-        left: 26px;
-        top: 50px;
+        left: 45px;
+        top: 128px;
     }
     .screen_one .flex_container{
         padding-right: 15px;
@@ -18,16 +18,23 @@
     header{
         background-image: url("../img/bg_adaptive.jpg");
     }
-    .woman img{
-        position: relative;
-        left: 26px;
-        top: 92px;
-    }
+
     .screen_one .flex_container p {
         font-size: 18px;
         max-width: 290px;
     }
 
+}
+
+@media only screen and (max-width: 992px){
+    header h3{
+        font-size: 40px;
+    }
+    .woman img{
+        position: relative;
+        left: 33px;
+        top: 84px;
+    }
 }
 
 @media only screen and (max-width: 914px){
@@ -41,9 +48,7 @@
         justify-content: flex-end;
     }
 
-    header h2{
-        font-size: 43px;
-    }
+
 
     .screen_one .flex_container p {
         font-size: 14px;
@@ -99,10 +104,18 @@
         font-size: 14px;
         max-width: 300px;
     }
+    header h3{
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 563px){
-
+    .text p{
+        max-width: 300px;
+    }
+    header{
+        padding: 0 30px 25px 30px;
+    }
     .screen_one .flex_container p {
         font-size: 18px;
         max-width: 300px;
@@ -116,19 +129,32 @@
     .screen_two .flex_container_two p{
         max-width: 200px;
     }
+    header h3{
+        font-size: 30px;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 454px){
+    header{
+        padding: 0 20px 30px 20px;
+    }
 }
 
 @media only screen and (max-width: 433px){
+
     .text p{
         font-size: 28px;
+        max-width: 250px;
     }
     .screen_one .flex_container p {
         font-size: 14px;
         max-width: 230px;
     }
-    header h2{
-        font-size: 30px;
+    header h3{
+        font-size: 25px;
     }
+
     .text a{
         font-size: 14px;
         padding: 14px 25px;
